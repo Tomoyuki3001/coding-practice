@@ -55,3 +55,55 @@
 # for number in numbers:
 #     print(number)
 
+
+# Python Excercises
+# https://www.w3resource.com/python-exercises/python-basic-exercises.php
+
+# print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are")
+
+# import sys 
+# print(sys.version)
+
+# import datetime
+# print(datetime.datetime.now())
+
+# from math import pi
+
+# r = float(input("Input the radius of the circle: "))
+# area = pi * r * r
+
+# print("The area of the circle is " + str(area))
+
+# first = input("First name: ")
+# last = input("Last name: ")
+# print(last + " " + first)
+
+# values = input("Please type numbers: ")
+# list = values.split(",")
+# tuple = tuple(list)
+
+# print(list, tuple)
+
+# filename = input("Input the filename: ")
+# f_extns = filename.split(".")
+# print(repr(f_extns[-1]))
+
+# color_list = ["Red","Green","White" ,"Black"]
+
+# print("First color: " + color_list[0] + "," + "Last color: " + color_list[-1])
+
+# exam_date = (11,12,2024)
+# print("%i, %i, %i" % exam_date)
+# print(exam_date[0])
+
+number = input("Number: ")
+
+print(number, number)
+
+n1 = int("%s" % number)
+n2 = int("%s%s" % (number, number))
+n3 = int("%s%s%s" % (number, number, number))
+
+print(n1 + n2 + n3)
+
+# print(int(number) + int(number + number) + int(number + number + number))
