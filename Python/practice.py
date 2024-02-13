@@ -96,14 +96,59 @@
 # print("%i, %i, %i" % exam_date)
 # print(exam_date[0])
 
-number = input("Number: ")
+# number = input("Number: ")
 
-print(number, number)
+# print(number, number)
 
-n1 = int("%s" % number)
-n2 = int("%s%s" % (number, number))
-n3 = int("%s%s%s" % (number, number, number))
+# n1 = int("%s" % number)
+# n2 = int("%s%s" % (number, number))
+# n3 = int("%s%s%s" % (number, number, number))
 
-print(n1 + n2 + n3)
+# print(n1 + n2 + n3)
 
 # print(int(number) + int(number + number) + int(number + number + number))
+
+# print(abs.__doc__)
+
+# import calendar
+
+# year = int(input("Input the year: "))
+# month = int(input("Input the month: "))
+
+# print(calendar.month(year, month))
+
+# print("""Test message 
+# test message 
+# test message""")
+
+# from datetime import date
+
+# first_date = date(2012, 7, 2)
+# last_date = date(2014, 7, 11)
+
+# delta = last_date - first_date
+
+# print(delta.days)
+
+# from math import pi
+
+# r = 6.0
+# v = 4.0/3.0 * pi * r**3
+
+# print(v)
+
+# def difference(n):
+#     if n <= 17:
+#         return 17 - n
+#     else:
+#         return (n-17) * 2
+    
+# print(difference(10))
+# print(difference(30))
+
+# def near_thousand(n):
+#     return ((abs(1000 - n) <= 100) or (abs(2000 - n) <= 100))
+
+# print(near_thousand(1000))
+# print(near_thousand(800))
+# print(near_thousand(2500))
