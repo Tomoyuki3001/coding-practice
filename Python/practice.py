@@ -146,9 +146,105 @@
 # print(difference(10))
 # print(difference(30))
 
+# Exercise 17
 # def near_thousand(n):
 #     return ((abs(1000 - n) <= 100) or (abs(2000 - n) <= 100))
 
 # print(near_thousand(1000))
 # print(near_thousand(800))
 # print(near_thousand(2500))
+
+# def sum_numbers(x, y, z):
+#     sum = x + y + z
+#     if x == y == z:
+#         sum = sum * 3
+#     return sum
+
+# print(sum_numbers(1,2,3))
+# print(sum_numbers(2,2,2))
+
+# def new_string(text):
+#     if len(text) >= 2 and text[:2] == "Is":
+#         return text
+#     else:
+#         return "Is" + text
+    
+# print(new_string("Array"))
+# print(new_string("IsArray"))
+
+# def larger_string(text, n):
+#     result = ""
+#     for i in range(n):
+#         result = result + text
+
+#     return result
+
+# print(larger_string("test", 2))
+# print(larger_string("py", 3))
+
+# def list_count(nums):
+#     count = 0
+
+#     for num in nums:
+#         if num == 4:
+#             count = count + 1
+    
+#     return count
+
+# print(list_count([1,2,3,4,5,4,4]))
+
+# def check_vowel(text):
+#     all_vowels = "aiueo"
+
+#     return text in all_vowels
+
+# print(check_vowel("c"))
+# print(check_vowel("e"))
+
+# def check_array(numbers_array, num):
+#     return num in numbers_array
+
+# print(check_array([1,2,3,4,5],3))
+# print(check_array([1,2,3,4], -3))
+
+# def histgram(items):
+#     for n in items:
+#         output = ""
+#         times = n
+#         while times > 0:
+#             output += "@"
+#             times = times -1
+        
+#         print(output)
+
+# histgram([3,4])
+
+# def concatenate_list(list):
+#     result = ""
+
+#     for element in list:
+#         result += str(element)
+
+#     return result
+
+# print(concatenate_list([1,4,5,6]))
+
+# numbers = [11,245,664,354,567,456,237,456,453,224,987]
+
+# for x in numbers:
+#     if x == 237:
+#         print(x)
+#         break
+#     if x % 2 == 0:
+#         print(x)
+
+# color_list_1 = set(["White", "Black", "Red"])
+# color_list_2 = set(["Red", "Green"])
+
+# print(color_list_1.difference(color_list_2))
+
+# Exercise 30
+# base = int(input("Input the base: "))
+# height = int(input("Input the height: "))
+
+# print("Area is: ", base * height / 2)
