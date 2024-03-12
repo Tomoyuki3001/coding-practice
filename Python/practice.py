@@ -248,3 +248,103 @@
 # height = int(input("Input the height: "))
 
 # print("Area is: ", base * height / 2)
+
+# def gcd(x, y):
+#     gcd = 1
+
+#     if x % y == 0:
+#         return y
+    
+#     for k in range(int(y / 2), 0, -1):
+#         if x % k == 0 and y % k == 0:
+#             gcd = k
+#             break
+#     return gcd
+
+# print("GCD of 12 and 17 =", gcd(4, 6))
+
+# def sum_numbers(x, y, z):
+#     sum = 0
+#     if x == y or x == z or z == y:
+#         return sum
+#     else:
+#         return x + y + z
+    
+# print(sum_numbers(3,4,3))
+
+# def sum_numbers(x,y):
+#     sum = x + y
+#     if sum in range(15, 20):
+#         sum = 20
+
+#     return sum
+
+# print(sum_numbers(8, 2))
+
+# def check_numbers(x,y):
+#     if x == y:
+#         return True
+#     if (x + y) == 5 or abs(x - y) == 5:
+#         return True
+#     else:
+#         return False
+
+# print(check_numbers(8,3))
+
+# def add_numbers(a, b):
+#     if not (isinstance(a, int) and isinstance(b, int)):
+#         return "Inputs must be integers!"
+    
+#     return a + b
+
+# print(add_numbers(10, 20.1))
+
+# name = input("Your name: ")
+# age = input("Your age: ")
+# ahand = input("Your hand is: ")
+
+# print("{}\n{}\n{}".format(name, age, ahand))
+
+# def squared_numbers(x, y):
+#     return (x+y)**2
+
+# print(squared_numbers(2,3))
+
+# def calculate_rate(amount, int, years):
+#     future_value = amount * ((1 + (0.01 * int)) ** years)
+#     return future_value
+
+# print(round(calculate_rate(10000, 3.5, 7), 2))
+
+# Exercise 40
+# import math
+
+# p1 = [4, 0]
+# p2 = [6, 6]
+
+# distance = math.sqrt(((p1[0] - p2[0]) ** 2) + ((p1[1] - p2[1]) ** 2))
+# print(distance)
+
+# import os.path
+
+# print(os.path.exists("practice.py"))
+
+# import struct
+
+# print(struct.calcsize("P") * 8)
+
+# import site
+# print(site.getsitepackages())
+
+# import multiprocessing
+
+# cpu = multiprocessing.cpu_count()
+
+# print(cpu)
+
+# for i in range(0, 10):
+#     print("K", end="")
+
+# print("\n")
+
+
